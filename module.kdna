@@ -1,0 +1,39 @@
+{
+  "name": "Quad-Robot",
+  "description": "Quad-Robot",
+  "version": "0.0.1",
+  "semantic_type": "project",
+  "contents": [
+    {
+      "semantic_type": "mechanical/stl",
+      "extension": ".stl",
+      "path": "mech"
+    },
+    {
+      "semantic_type": "image",
+      "extension": ".png,.jpg",
+      "path": "images"
+    },
+    { 
+      "semantic_type": "electrical/bom",
+      "extension": ".csv",
+      "path": "bom",
+      "display_fields": "QTY,MPN,URL#MPN,Description"
+    },
+    {
+      "semantic_type": "electrical/schematic",
+	  "extension": ".sch",
+      "path": "schematics"
+    },
+	{
+      "semantic_type": "electrical/board",
+      "extension": ".brd",
+      "path": "boards"
+    },
+	{
+      "semantic_type": "firmware",
+	  "extension": ".uno,.py",
+      "path": "code"
+    }
+  ]
+}
